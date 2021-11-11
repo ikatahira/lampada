@@ -3,7 +3,7 @@ public class TesteLampada {
 public static void main(String[] args) {
     Lampada l=new Lampada();
 
-    l.ligar();
+    l.desligar();
 
     if(l.isSituacaoLampada()){
         System.out.println("Lampada ligada");
